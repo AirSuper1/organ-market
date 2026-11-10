@@ -1,7 +1,7 @@
 {
 	"schemaVersion": 1,
 	"id": "organ-market",
-	"version": "1.0",
+	"version": "1.1",
 	"name": "Organ Market",
 	"description": "Sell your organs on the black market for diamonds. Every sold organ leaves a permanent debuff that milk can't cure, until you pay to buy it back. Prices depend on the world seed. Press J to open the market.",
 	"authors": [
@@ -9,7 +9,9 @@
 	],
 	"contact": {
 		"homepage": "https://fabricmc.net/",
-		"sources": "https://github.com/AirSuper1/organ-market/"
+		"sources": "https://github.com/AirSuper1/organ-market",
+		"issues": "https://github.com/AirSuper1/organ-market/issues/",
+		"TikTok": "https://www.tiktok.com/@penoplast67"
 	},
 	"license": "CC0-1.0",
 	"icon": "assets/organ-market/icon.png",
