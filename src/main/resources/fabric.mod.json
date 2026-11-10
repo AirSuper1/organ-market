@@ -1,0 +1,38 @@
+{
+	"schemaVersion": 1,
+	"id": "organ-market",
+	"version": "1.0",
+	"name": "Organ Market",
+	"description": "Sell your organs on the black market for diamonds. Every sold organ leaves a permanent debuff that milk can't cure, until you pay to buy it back. Prices depend on the world seed. Press J to open the market.",
+	"authors": [
+		"Me!"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod",
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/organ-market/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"com.sale.organ.OrganMarket"
+		],
+		"client": [
+			"com.sale.organ.client.OrganMarketClient"
+		]
+	},
+	"mixins": [
+		"organ-market.mixins.json",
+		{
+			"config": "organ-market.client.mixins.json",
+			"environment": "client"
+		}
+	],
+	"depends": {
+		"fabricloader": ">=0.20.1",
+		"minecraft": "~26.3",
+		"java": ">=25",
+		"fabric-api": "*"
+	}
+}
